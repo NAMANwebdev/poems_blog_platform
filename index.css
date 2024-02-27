@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+
+    height: 10vh;
+    background: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-left: 8px;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+}
+.options{
+
+    font-size: 3vmin;
+    text-align: right;
+}
+
+
+#image{
+
+    height: 100%;
+    width: 100%;
+}
+#container{
+    position: relative;
+}
+
+.message{
+    
+    position:absolute;
+    color: beige;
+    left: 22.5%;
+    top: 17.4%;
+    font-size: 12vmin;
+    
+}
+
+#button{
+    size: 7vmin;
+    font-size: 4vmin;
+    position: absolute;
+    border: none;
+    background: burlywood;
+    color: beige;
+    border-radius: 25px;
+    left: 37%;
+    top: 135%;
+    padding: 15px;
+    cursor: pointer;    
+
+}

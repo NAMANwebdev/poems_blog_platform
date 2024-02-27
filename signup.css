@@ -1,0 +1,129 @@
+
+
+#head{
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.subhead{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#box{
+    
+    display: flex;
+    
+    
+    width: 60vw;
+    height: 70%;
+}
+
+#leftbox{
+
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 50%;
+}
+
+#rightbox{
+
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 50%;
+}
+
+#userinfo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.credentials{
+
+    width: 70%;
+    
+    border: none;
+
+}
+
+#signup{
+
+    background: burlywood;
+    border-radius: 25px;
+    width: 110px;
+    height: 45px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-left: 54px;
+    margin-top: 35px;
+
+}
+
+#facebookbtn{
+
+    background: #3B5998;
+    width: 65%;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+
+
+
+
+}
+
+#googlebtn{
+
+    background: #1A73E8;
+    width: 65%;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+
+}
+
+.line{
+
+width: 0.7px;
+background-color: gray;
+height: 200px;
+position: absolute;
+left: 50%;
+opacity: 0.3;
+
+
+}
+
+
+
+
